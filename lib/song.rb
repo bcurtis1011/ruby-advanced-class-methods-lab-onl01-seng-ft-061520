@@ -52,4 +52,8 @@ class Song
     song.name = song_data[1]
     song
   end
+  
+  def Song.create_from_filename
+    
+  end
 end
