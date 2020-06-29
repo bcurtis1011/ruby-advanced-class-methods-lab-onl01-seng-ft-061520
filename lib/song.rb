@@ -40,4 +40,8 @@ class Song
       find_by_name(name)
     end
   end
+  
+  def Song.alphabetical
+    
+  end
 end
