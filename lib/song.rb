@@ -46,6 +46,6 @@ class Song
   end
   
   def Song.new_from_filename(filename)
-    
+    song_data = filename.sub!(/.mp3/,"").split(" - ")
   end
 end
